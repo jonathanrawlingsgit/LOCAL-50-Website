@@ -9,6 +9,7 @@
     width: 100%;
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),
                       url(images/banner.png);
+    background-color: rgb(82, 82, 82);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -94,6 +95,9 @@ nav .fas{
     .text-box h1{
         font-size: 20px;
     }
+    h4 {
+        font-size: 12px;
+    }
     .nav-links ul li{
         display: block;
     }
@@ -154,7 +158,7 @@ p{
 .resource-col{
     flex-basis: 18%;
     background: #fff3f3;
-    border: 1px solid white;
+    border: 2px solid white;
     border-radius: 10px;
     margin-bottom: 5%;
     padding: 20px 12px;
@@ -175,22 +179,22 @@ h3{
     }
 }
 
-/* ------- campus -------- */
+/* ------- news -------- */
 
-.campus{
+.news{
     width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 50px;
 }
-.campus-col{
+.news-col{
     flex-basis: 32%;
     border-radius: 10px;
     margin-bottom: 30px;
     position: relative;
     overflow: hidden;
 }
-.campus-col img{
+.news-col img{
     width: 100%;
     display: block;
 }
